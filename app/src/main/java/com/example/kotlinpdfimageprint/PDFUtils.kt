@@ -3,6 +3,7 @@ package com.example.kotlinpdfimageprint
 
 import com.itextpdf.text.*
 import com.itextpdf.text.pdf.draw.LineSeparator
+import com.itextpdf.text.pdf.draw.VerticalPositionMark
 
 object PDFUtils {
     @Throws(DocumentException::class)
@@ -42,6 +43,13 @@ object PDFUtils {
         val chunkTextLeft = Chunk(leftText, leftFont)
         val chunkTextRight = Chunk(rightText, rightFont)
         val p = Paragraph(chunkTextLeft)
+
+        p.add(Chunk(VerticalPositionMark()))
+        p.add(Chunk(chunkTextRight))
+        document.add(p)
+
+
+
 
 
 
