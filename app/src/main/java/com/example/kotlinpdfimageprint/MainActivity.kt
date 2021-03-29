@@ -209,17 +209,21 @@ class MainActivity : AppCompatActivity() {
 
     private fun initModel() {
         var model = SuperHeroModel()
-        model.name = "Joel"
-        model.description = "JJKJKLJLKJHJKHKHJH"
-        model.image = "https://images.unsplash.com/photo-1470399542183-e6245d78c479?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80"
+        model.name = "Joel Crawford"
+        model.description = "\n" +
+                "Why do we use it?\n" +
+                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        model.image = "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/114bec2f-fbfd-4b13-91de-907fe57c6e37"
 
         superHeroList.add(model)
 
 
 
-        model.name = "Joel Joel"
-        model.description = "JJKJKLJLKJHJKHKHJH"
-        model.image = "https://images.unsplash.com/photo-1470399542183-e6245d78c479?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80"
+        model.name = "John Joel"
+        model.description = "\n" +
+                "Why do we use it?\n" +
+                "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        model.image = "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/114bec2f-fbfd-4b13-91de-907fe57c6e37"
 
         superHeroList.add(model)
 
@@ -230,23 +234,23 @@ class MainActivity : AppCompatActivity() {
         superHeroList.add(model)
 
 
-        model.name = "Joel Joel"
-        model.description = "JJKJKLJLKJHJKHKHJH"
+        model.name = "Joel John Craw"
+        model.description = "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem I"
         model.image = "https://images.unsplash.com/photo-1470399542183-e6245d78c479?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80"
 
         superHeroList.add(model)
 
 
 
-        model.name = "Joel Joel"
-        model.description = "JJKJKLJLKJHJKHKHJH"
-        model.image = "https://www.shutterstock.com/image-illustration/watercolor-wreath-hand-painted-eucalyptus-flowers-1607210860"
+        model.name = "John Craw"
+        model.description = "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem I"
+        model.image = "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/dda5bc77-327f-4944-8f51-ba4f3651ffdf"
 
         superHeroList.add(model)
 
 
-        model.name = "Joel Joel"
-        model.description = "JJKJKLJLKJHJKHKHJH"
+        model.name = "Janda"
+        model.description = "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem I"
         model.image = "https://images.unsplash.com/photo-1470399542183-e6245d78c479?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=667&q=80"
 
         superHeroList.add(model)
