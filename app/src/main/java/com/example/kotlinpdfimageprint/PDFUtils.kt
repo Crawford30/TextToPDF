@@ -37,10 +37,11 @@ object PDFUtils {
 
     @Throws(DocumentException::class)
     fun addNewItemWithLeftAndRight(document:Document, leftText: String,rightText:String, leftFont: Font, rightFont:Font){
-
+//https://youtu.be/O4CqYhepK1o?t=332
+        //https://www.youtube.com/watch?v=z3tWuwEA-Jw
         val chunkTextLeft = Chunk(leftText, leftFont)
         val chunkTextRight = Chunk(rightText, rightFont)
-        
+        val p = Paragraph(chunkTextLeft)
 
 
 
